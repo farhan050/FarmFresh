@@ -1,0 +1,43 @@
+.nav-link.active{
+    color: white;
+}
+.banner{
+    background-color: rgb(253, 210, 153);
+}
+.service-card-img{
+    background-color: rgb(222, 184, 135);
+}
+@media (min-width: 1200px) {
+    .banner .services:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: calc(50% + 20px);
+      background-color: #fff;
+    }
+  }
+
+.service-card {
+    
+    transition: all 0.3s ease-in-out;
+  }
+header{
+    background-color: rgb(255, 255, 255);
+}
+.section{
+  margin: 4rem 0;
+}
+.about-section h2::after{
+content: "";
+position: absolute;
+display: block;
+width: 50px;
+height: 3px;
+right: 0;
+left: 0;
+bottom: 0;
+margin:auto;
+background-color: rgb(36, 9, 9);
+}
